@@ -1,0 +1,5 @@
+Found 1 items
+-rw-r--r--   2 jennylee hadoop    286.1 M 2026-10-05 18:09 a1/input/corpus.txt
+Found 2 items
+-rw-r--r--   2 jennylee hadoop     29.6 K 2026-10-05 18:09 a1/joins/customers.csv
+-rw-r--r--   2 jennylee hadoop     55.8 M 2026-10-05 18:09 a1/joins/orders.csv

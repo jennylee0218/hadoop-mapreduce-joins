@@ -1,0 +1,46 @@
+FSCK started by jennylee (auth:SIMPLE) from /10.128.0.3 for path /user/jennylee/a1/input/corpus.txt at Mon Oct 05 18:09:36 UTC 2026
+
+/user/jennylee/a1/input/corpus.txt 300000008 bytes, replicated: replication=2, 3 block(s):  OK
+0. BP-1268604044-10.128.0.3-1791223195637:blk_1073741825_1001 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[10.128.0.4:9866,DS-85672901-85ce-4a45-b305-dce6ef03433b,DISK], DatanodeInfoWithStorage[10.128.0.2:9866,DS-e4cb8304-ad03-4a73-8120-14c8d143f767,DISK]]
+1. BP-1268604044-10.128.0.3-1791223195637:blk_1073741826_1002 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[10.128.0.4:9866,DS-85672901-85ce-4a45-b305-dce6ef03433b,DISK], DatanodeInfoWithStorage[10.128.0.2:9866,DS-e4cb8304-ad03-4a73-8120-14c8d143f767,DISK]]
+2. BP-1268604044-10.128.0.3-1791223195637:blk_1073741827_1003 len=31564552 Live_repl=2  [DatanodeInfoWithStorage[10.128.0.2:9866,DS-e4cb8304-ad03-4a73-8120-14c8d143f767,DISK], DatanodeInfoWithStorage[10.128.0.4:9866,DS-85672901-85ce-4a45-b305-dce6ef03433b,DISK]]
+
+
+Status: HEALTHY
+ Number of data-nodes:	2
+ Number of racks:		1
+ Total dirs:			0
+ Total symlinks:		0
+
+Replicated Blocks:
+ Total size:	300000008 B
+ Total files:	1
+ Total blocks (validated):	3 (avg. block size 100000002 B)
+ Minimally replicated blocks:	3 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	2
+ Average block replication:	2.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Blocks queued for replication:	0
+
+Erasure Coded Block Groups:
+ Total size:	0 B
+ Total files:	0
+ Total block groups (validated):	0
+ Minimally erasure-coded block groups:	0
+ Over-erasure-coded block groups:	0
+ Under-erasure-coded block groups:	0
+ Unsatisfactory placement block groups:	0
+ Average block group size:	0.0
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0
+ Blocks queued for replication:	0
+FSCK ended at Mon Oct 05 18:09:36 UTC 2026 in 15 milliseconds
+
+
+The filesystem under path '/user/jennylee/a1/input/corpus.txt' is HEALTHY

@@ -1,0 +1,66 @@
+packageJobJar: [] [/usr/lib/hadoop/hadoop-streaming-3.3.6.jar] /tmp/streamjob5683192114310644623.jar tmpDir=null
+2026-10-05 18:43:53,745 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at adsp32030-a1-m.us-central1-a.c.<gcp-project>.internal./10.128.0.3:8032
+2026-10-05 18:43:54,137 INFO client.AHSProxy: Connecting to Application History server at adsp32030-a1-m.us-central1-a.c.<gcp-project>.internal./10.128.0.3:10200
+2026-10-05 18:43:55,196 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at adsp32030-a1-m.us-central1-a.c.<gcp-project>.internal./10.128.0.3:8032
+2026-10-05 18:43:55,198 INFO client.AHSProxy: Connecting to Application History server at adsp32030-a1-m.us-central1-a.c.<gcp-project>.internal./10.128.0.3:10200
+2026-10-05 18:43:55,564 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/jennylee/.staging/job_1791223214607_0004
+2026-10-05 18:43:56,340 INFO mapred.FileInputFormat: Total input files to process : 1
+2026-10-05 18:43:56,484 INFO mapreduce.JobSubmitter: number of splits:9
+2026-10-05 18:43:56,943 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1791223214607_0004
+2026-10-05 18:43:56,944 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2026-10-05 18:43:57,290 INFO conf.Configuration: resource-types.xml not found
+2026-10-05 18:43:57,291 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2026-10-05 18:43:57,438 INFO impl.YarnClientImpl: Submitted application application_1791223214607_0004
+2026-10-05 18:43:57,491 INFO mapreduce.Job: The url to track the job: http://adsp32030-a1-m.us-central1-a.c.<gcp-project>.internal.:8088/proxy/application_1791223214607_0004/
+2026-10-05 18:43:57,493 INFO mapreduce.Job: Running job: job_1791223214607_0004
+2026-10-05 18:44:12,753 INFO mapreduce.Job: Job job_1791223214607_0004 running in uber mode : false
+2026-10-05 18:44:12,754 INFO mapreduce.Job:  map 0% reduce 0%
+2026-10-05 18:44:22,936 INFO mapreduce.Job:  map 11% reduce 0%
+2026-10-05 18:44:33,057 INFO mapreduce.Job:  map 33% reduce 0%
+2026-10-05 18:44:34,068 INFO mapreduce.Job:  map 44% reduce 0%
+2026-10-05 18:44:42,154 INFO mapreduce.Job:  map 56% reduce 0%
+2026-10-05 18:44:50,232 INFO mapreduce.Job:  map 67% reduce 0%
+2026-10-05 18:44:51,246 INFO mapreduce.Job:  map 78% reduce 0%
+2026-10-05 18:44:53,267 INFO mapreduce.Job:  map 89% reduce 0%
+2026-10-05 18:45:00,337 INFO mapreduce.Job:  map 100% reduce 0%
+2026-10-05 18:45:02,383 INFO mapreduce.Job: Job job_1791223214607_0004 completed successfully
+2026-10-05 18:45:02,563 INFO mapreduce.Job: Counters: 33
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=2620701
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=58551699
+		HDFS: Number of bytes written=48099892
+		HDFS: Number of read operations=63
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=27
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=9
+		Data-local map tasks=9
+		Total time spent by all maps in occupied slots (ms)=368039870
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=112310
+		Total vcore-milliseconds taken by all map tasks=112310
+		Total megabyte-milliseconds taken by all map tasks=368039870
+	Map-Reduce Framework
+		Map input records=2000001
+		Map output records=2000000
+		Input split bytes=963
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=631
+		CPU time spent (ms)=21530
+		Physical memory (bytes) snapshot=3095416832
+		Virtual memory (bytes) snapshot=42467094528
+		Total committed heap usage (bytes)=2221932544
+		Peak Map Physical memory (bytes)=380944384
+		Peak Map Virtual memory (bytes)=4722049024
+	File Input Format Counters 
+		Bytes Read=58550736
+	File Output Format Counters 
+		Bytes Written=48099892
+2026-10-05 18:45:02,564 INFO streaming.StreamJob: Output directory: a1/out_join_map

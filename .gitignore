@@ -1,0 +1,21 @@
+# secrets — never commit
+.env
+env.sh
+url.sh
+fn_url.sh
+*.pem
+*.key
+
+# generated data and build output
+data/
+build/
+/out_join_*.tsv
+/customers.csv
+
+# Python / tooling
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+.claude/

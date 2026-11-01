@@ -1,0 +1,102 @@
+===== 19:13:05 UTC =====
+Total Nodes:1
+adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8042	                           2
+Live datanodes (2):
+ Under-replicated blocks:	0 (0.0 %)
+The filesystem under path '/user/jennylee/a1' is HEALTHY
+===== 19:14:25 UTC =====
+Total Nodes:1
+adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8042	                           2
+Live datanodes (2):
+ Under-replicated blocks:	0 (0.0 %)
+The filesystem under path '/user/jennylee/a1' is HEALTHY
+===== 19:15:43 UTC =====
+Total Nodes:1
+adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8042	                           2
+Live datanodes (2):
+ Under-replicated blocks:	0 (0.0 %)
+The filesystem under path '/user/jennylee/a1' is HEALTHY
+===== 19:17:01 UTC =====
+Total Nodes:1
+adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8042	                           2
+Live datanodes (2):
+ Under-replicated blocks:	1 (4.1666665 %)
+The filesystem under path '/user/jennylee/a1' is HEALTHY
+===== 19:18:19 UTC =====
+Total Nodes:1
+adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8042	                           2
+Live datanodes (2):
+ Under-replicated blocks:	1 (4.1666665 %)
+The filesystem under path '/user/jennylee/a1' is HEALTHY
+===== 19:19:37 UTC =====
+Total Nodes:1
+adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8042	                           2
+Live datanodes (2):
+ Under-replicated blocks:	2 (8.0 %)
+The filesystem under path '/user/jennylee/a1' is HEALTHY
+===== 19:20:55 UTC =====
+Total Nodes:1
+adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8042	                           0
+Live datanodes (2):
+ Under-replicated blocks:	3 (11.538462 %)
+The filesystem under path '/user/jennylee/a1' is HEALTHY
+===== 19:22:19 UTC =====
+Total Nodes:1
+adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8042	                           0
+Live datanodes (1):
+Dead datanodes (1):
+ Under-replicated blocks:	26 (100.0 %)
+The filesystem under path '/user/jennylee/a1' is HEALTHY
+===== 19:23:36 UTC =====
+Total Nodes:1
+adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8042	                           0
+Live datanodes (1):
+Dead datanodes (1):
+ Under-replicated blocks:	26 (100.0 %)
+The filesystem under path '/user/jennylee/a1' is HEALTHY
+===== 19:24:54 UTC =====
+Total Nodes:1
+adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8042	                           0
+Live datanodes (1):
+Dead datanodes (1):
+ Under-replicated blocks:	26 (100.0 %)
+The filesystem under path '/user/jennylee/a1' is HEALTHY
+===== 19:26:13 UTC =====
+Total Nodes:1
+adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8042	                           0
+Live datanodes (1):
+Dead datanodes (1):
+ Under-replicated blocks:	26 (100.0 %)
+The filesystem under path '/user/jennylee/a1' is HEALTHY
+===== 19:27:36 UTC =====
+Total Nodes:1
+adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8042	                           0
+Live datanodes (1):
+Dead datanodes (1):
+ Under-replicated blocks:	26 (100.0 %)
+The filesystem under path '/user/jennylee/a1' is HEALTHY
+===== 19:28:56 UTC =====
+Total Nodes:1
+adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8042	                           0
+Live datanodes (1):
+Dead datanodes (1):
+ Under-replicated blocks:	26 (100.0 %)
+The filesystem under path '/user/jennylee/a1' is HEALTHY
+===== 19:30:34 UTC =====
+Total Nodes:2
+adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8042	                           0
+adsp32030-a1-w-1.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-1.us-central1-a.c.<gcp-project>.internal:8042	                           0
+Live datanodes (2):
+ Under-replicated blocks:	0 (0.0 %)
+The filesystem under path '/user/jennylee/a1' is HEALTHY
+===== 19:31:51 UTC =====
+Total Nodes:2
+adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8042	                           0
+adsp32030-a1-w-1.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-1.us-central1-a.c.<gcp-project>.internal:8042	                           0
+Live datanodes (2):
+ Under-replicated blocks:	0 (0.0 %)
+The filesystem under path '/user/jennylee/a1' is HEALTHY
+===== 19:33:08 UTC =====
+Total Nodes:2
+adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal:8042	                           0
+adsp32030-a1-w-1.us-central1-a.c.<gcp-project>.internal:8026	        RUNNING	adsp32030-a1-w-1.us-central1-a.c.<gcp-project>.internal:8042	                           0

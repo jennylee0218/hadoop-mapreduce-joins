@@ -1,0 +1,14 @@
+===== 19:30:51 UTC =====
+Live datanodes (2):
+ Under-replicated blocks:	0 (0.0 %)
+ Average block replication:	2.0
+ Missing replicas:		0 (0.0 %)
+ Blocks queued for replication:	0
+ Blocks queued for replication:	0
+===== 19:31:24 UTC =====
+Live datanodes (2):
+ Under-replicated blocks:	0 (0.0 %)
+ Average block replication:	2.0
+ Missing replicas:		0 (0.0 %)
+ Blocks queued for replication:	0
+ Blocks queued for replication:	0

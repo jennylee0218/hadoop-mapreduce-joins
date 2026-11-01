@@ -1,0 +1,109 @@
+packageJobJar: [] [/usr/lib/hadoop/hadoop-streaming-3.3.6.jar] /tmp/streamjob12434856013106870849.jar tmpDir=null
+2026-10-05 18:23:26,794 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at adsp32030-a1-m.us-central1-a.c.<gcp-project>.internal./10.128.0.3:8032
+2026-10-05 18:23:27,418 INFO client.AHSProxy: Connecting to Application History server at adsp32030-a1-m.us-central1-a.c.<gcp-project>.internal./10.128.0.3:10200
+2026-10-05 18:23:28,403 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at adsp32030-a1-m.us-central1-a.c.<gcp-project>.internal./10.128.0.3:8032
+2026-10-05 18:23:28,406 INFO client.AHSProxy: Connecting to Application History server at adsp32030-a1-m.us-central1-a.c.<gcp-project>.internal./10.128.0.3:10200
+2026-10-05 18:23:28,847 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/jennylee/.staging/job_1791223214607_0002
+2026-10-05 18:23:29,984 INFO mapred.FileInputFormat: Total input files to process : 1
+2026-10-05 18:23:30,036 INFO net.NetworkTopology: Adding a new node: /default-rack/10.128.0.2:9866
+2026-10-05 18:23:30,038 INFO net.NetworkTopology: Adding a new node: /default-rack/10.128.0.4:9866
+2026-10-05 18:23:30,242 INFO mapreduce.JobSubmitter: number of splits:9
+2026-10-05 18:23:30,756 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1791223214607_0002
+2026-10-05 18:23:30,757 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2026-10-05 18:23:31,181 INFO conf.Configuration: resource-types.xml not found
+2026-10-05 18:23:31,182 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2026-10-05 18:23:31,568 INFO impl.YarnClientImpl: Submitted application application_1791223214607_0002
+2026-10-05 18:23:31,644 INFO mapreduce.Job: The url to track the job: http://adsp32030-a1-m.us-central1-a.c.<gcp-project>.internal.:8088/proxy/application_1791223214607_0002/
+2026-10-05 18:23:31,647 INFO mapreduce.Job: Running job: job_1791223214607_0002
+2026-10-05 18:23:47,003 INFO mapreduce.Job: Job job_1791223214607_0002 running in uber mode : false
+2026-10-05 18:23:47,004 INFO mapreduce.Job:  map 0% reduce 0%
+2026-10-05 18:24:08,287 INFO mapreduce.Job:  map 7% reduce 0%
+2026-10-05 18:24:15,352 INFO mapreduce.Job:  map 12% reduce 0%
+2026-10-05 18:24:16,392 INFO mapreduce.Job:  map 19% reduce 0%
+2026-10-05 18:24:21,451 INFO mapreduce.Job:  map 22% reduce 0%
+2026-10-05 18:24:22,462 INFO mapreduce.Job:  map 24% reduce 0%
+2026-10-05 18:24:27,513 INFO mapreduce.Job:  map 25% reduce 0%
+2026-10-05 18:24:28,523 INFO mapreduce.Job:  map 26% reduce 0%
+2026-10-05 18:24:36,605 INFO mapreduce.Job:  map 33% reduce 0%
+2026-10-05 18:24:45,697 INFO mapreduce.Job:  map 44% reduce 0%
+2026-10-05 18:25:04,888 INFO mapreduce.Job:  map 52% reduce 0%
+2026-10-05 18:25:10,946 INFO mapreduce.Job:  map 56% reduce 0%
+2026-10-05 18:25:11,954 INFO mapreduce.Job:  map 60% reduce 0%
+2026-10-05 18:25:13,986 INFO mapreduce.Job:  map 63% reduce 0%
+2026-10-05 18:25:17,026 INFO mapreduce.Job:  map 66% reduce 0%
+2026-10-05 18:25:18,037 INFO mapreduce.Job:  map 68% reduce 0%
+2026-10-05 18:25:23,085 INFO mapreduce.Job:  map 69% reduce 0%
+2026-10-05 18:25:24,093 INFO mapreduce.Job:  map 70% reduce 0%
+2026-10-05 18:25:34,180 INFO mapreduce.Job:  map 78% reduce 0%
+2026-10-05 18:25:42,249 INFO mapreduce.Job:  map 85% reduce 0%
+2026-10-05 18:25:43,261 INFO mapreduce.Job:  map 89% reduce 0%
+2026-10-05 18:26:01,424 INFO mapreduce.Job:  map 96% reduce 0%
+2026-10-05 18:26:10,498 INFO mapreduce.Job:  map 100% reduce 0%
+2026-10-05 18:26:20,568 INFO mapreduce.Job:  map 100% reduce 33%
+2026-10-05 18:26:28,626 INFO mapreduce.Job:  map 100% reduce 67%
+2026-10-05 18:26:29,639 INFO mapreduce.Job:  map 100% reduce 100%
+2026-10-05 18:26:32,680 INFO mapreduce.Job: Job job_1791223214607_0002 completed successfully
+2026-10-05 18:26:32,965 INFO mapreduce.Job: Counters: 56
+	File System Counters
+		FILE: Number of bytes read=10809
+		FILE: Number of bytes written=3525345
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=300033739
+		HDFS: Number of bytes written=1110
+		HDFS: Number of read operations=42
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=9
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Killed map tasks=1
+		Killed reduce tasks=1
+		Launched map tasks=10
+		Launched reduce tasks=3
+		Data-local map tasks=10
+		Total time spent by all maps in occupied slots (ms)=1230985388
+		Total time spent by all reduces in occupied slots (ms)=122327133
+		Total time spent by all map tasks (ms)=375644
+		Total time spent by all reduce tasks (ms)=37329
+		Total vcore-milliseconds taken by all map tasks=375644
+		Total vcore-milliseconds taken by all reduce tasks=37329
+		Total megabyte-milliseconds taken by all map tasks=1230985388
+		Total megabyte-milliseconds taken by all reduce tasks=122327133
+	Map-Reduce Framework
+		Map input records=7132619
+		Map output records=71323584
+		Map output bytes=442647176
+		Map output materialized bytes=10953
+		Input split bytes=963
+		Combine input records=71323584
+		Combine output records=792
+		Reduce input groups=88
+		Reduce shuffle bytes=10953
+		Reduce input records=792
+		Reduce output records=88
+		Spilled Records=1584
+		Shuffled Maps =27
+		Failed Shuffles=0
+		Merged Map outputs=27
+		GC time elapsed (ms)=785
+		CPU time spent (ms)=230830
+		Physical memory (bytes) snapshot=6430130176
+		Virtual memory (bytes) snapshot=56589148160
+		Total committed heap usage (bytes)=5533335552
+		Peak Map Physical memory (bytes)=652279808
+		Peak Map Virtual memory (bytes)=4733472768
+		Peak Reduce Physical memory (bytes)=357871616
+		Peak Reduce Virtual memory (bytes)=4720193536
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=300032776
+	File Output Format Counters 
+		Bytes Written=1110
+2026-10-05 18:26:32,966 INFO streaming.StreamJob: Output directory: a1/out_wc_combiner

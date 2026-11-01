@@ -1,0 +1,7 @@
+Live datanodes (2):
+Name: 10.128.0.2:9866 (adsp32030-a1-w-1.us-central1-a.c.<gcp-project>.internal)
+Hostname: adsp32030-a1-w-1.us-central1-a.c.<gcp-project>.internal
+Decommission Status : Normal
+Name: 10.128.0.4:9866 (adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal)
+Hostname: adsp32030-a1-w-0.us-central1-a.c.<gcp-project>.internal
+Decommission Status : Normal
